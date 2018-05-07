@@ -15,6 +15,7 @@ $(document).ready(function(){
                 for (var i = 0; i < results.length; i++) {
 
                     var animalDiv = $('<div>');
+                    animalDiv.addClass('col-md-4 fltL');
 
                     var p =$("<p>");
                     p.text("Rating: " + results[i].rating);
@@ -69,6 +70,7 @@ $(document).ready(function(){
                 for (var i = 0; i < results.length; i++) {
 
                     var animalDiv = $('<div>');
+                    animalDiv.addClass('col-md-4 fltL');
 
                     var p =$("<p>");
                     p.text("Rating: " + results[i].rating);
